@@ -1,0 +1,46 @@
+
+/* nav links effects start */
+
+.navbar-nav .nav-link {
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.2); /* Subtle white transparency */
+    border-bottom: 2px solid white; /* White underline */
+    font-weight: 500; /* Slightly bolder */
+    border-radius: 5px; /* Smooth edges */
+}
+
+/* Hover effect for better UX */
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+/* nav links effects end */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+   .custom-size-h1{
+    font-size: 38px !important;
+    padding: 0;
+   }
+   .custom-size-h2{
+    font-size: 25px !important;
+    width: 100%;
+    padding: 0;
+   }
+    
+}
